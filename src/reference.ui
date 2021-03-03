@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>reference</class>
+ <widget class="QDialog" name="reference">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1010</width>
+    <height>561</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Справка</string>
+  </property>
+  <widget class="QTextBrowser" name="textBrowser">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1011</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:22pt; font-weight:600; color:#710080;&quot;&gt;Справка &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;	Для работы с изображением кликнете &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;&amp;quot;Открыть файл&amp;quot; &lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;и веберите путь к файлу формата &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;.bmp&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;. Обратите внимание, что  программа обрабатывает изображения только формата BMP.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Для обработки изображения существуют следующие инструменты:&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;	-Фильтр rgb-компонент: &lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;кликнете на кнопку &amp;quot;&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;rgb-компонент&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;, выберите в появившемся окне какой из трёх компонентов R, G или B вы хотите установить в 0 или 255.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;	-Рисование квадрата: &lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;выберите значение толщины конутра и флаг на заливку квадрата, кликнете на кнопку &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;&amp;quot;Нарисовать квадрат&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;,  выберите цвет контура и цвет заливки, в случае установленного флажка на заливку, и выделите область изображения, на которой будет отрисован квадрат.&lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;	-Смена местами 4 куска области: &lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;кликнете на кнопку &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;&amp;quot;Поменять местами части изображения&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;, предварительно выбрав каким образом будут сменены части, есть возможность смены, как по диагонали, так и по часовой стрелке, и выделите прямоугольную область.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;	-Смена цвета наиболее встречаемого пикселя: &lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;кликнете на кнопку &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;&amp;quot;Заменить часто встречаемый пиксель&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;. Вам будет предложено выбрать цвет, на который необходимо заменить часто встречаемый пиксель.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;После работы с изображением вы можете сохранить его, кликнув на кнопку &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;&amp;quot;Сохранить файл&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;. После этого в появившемся окне выберите путь для сохранения файла.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;Также вы можете посмотреть подробную информацию об изображении во вкладке &lt;/span&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;&amp;quot;Информация об изображении&amp;quot;&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p align=&quot;right&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-style:italic;&quot;&gt;Автор программы: Бородкин Юрий Владимирович&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
